@@ -1,4 +1,4 @@
-package VTDOM;
+package VTDOMJ;
 
 public class OperacoesAritimeticas {
     public static void main(String[] args) {

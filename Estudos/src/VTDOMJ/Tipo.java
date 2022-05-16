@@ -1,4 +1,4 @@
-package VTDOM;
+package VTDOMJ;
 
 public class Tipo {
     public static void main(String[] args) {

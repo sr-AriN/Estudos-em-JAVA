@@ -1,4 +1,4 @@
-package VTDOM;
+package VTDOMJ;
 
 public class Variaveis {
 
