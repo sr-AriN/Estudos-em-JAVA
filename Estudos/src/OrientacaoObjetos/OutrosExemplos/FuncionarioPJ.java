@@ -1,4 +1,4 @@
-package OrientacaoObjetos.OutroExemplo;
+package OrientacaoObjetos.OutrosExemplos;
 
 public abstract class FuncionarioPJ {
     private String nome;
