@@ -1,4 +1,4 @@
-package OrientacaoObjetos.OutroExemplo;
+package OrientacaoObjetos.OutrosExemplos;
 
 public class Main {
     public static void main(String[] args) {

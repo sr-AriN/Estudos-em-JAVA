@@ -1,4 +1,4 @@
-package OrientacaoObjetos.OutroExemplo;
+package OrientacaoObjetos.OutrosExemplos;
 
 public class Vendedor extends FuncionarioCLT implements CalculaBonificacao {
     private Double valorDaBonificacao;

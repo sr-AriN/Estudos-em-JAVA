@@ -1,4 +1,4 @@
-package OrientacaoObjetos.OutroExemplo;
+package OrientacaoObjetos.OutrosExemplos;
 
 public class Gerente extends FuncionarioPJ implements CalculaBonificacao {
     private Double valorDaBonificacao;
