@@ -3,6 +3,7 @@ package com.spring_estudos.estudos.SpringBoot.repository;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.spring_estudos.estudos.SpringBoot.handler.BusinessException;
 import com.spring_estudos.estudos.SpringBoot.model.Usuario;
 
 import org.springframework.stereotype.Repository;
@@ -10,6 +11,10 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class UsuarioRepository {
     public void save(Usuario usuario) {
+        if (usuario.getLogin() == null)
+            throw new BusinessException("login");
+        if (usuario.getPassword() == null)
+            throw new BusinessException("password");
         if (usuario.getId() == null)
             System.out.println("SAVE - Recebendo o usuário na camada de repositório");
         else

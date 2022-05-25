@@ -10,6 +10,28 @@
             "projectName": "estudos",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Projetofeign1Application<projetofeign1>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.projetofeign1.Projetofeign1Application",
+            "projectName": "projetofeign1",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Projetofeign2Application<projetofeign2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.projetofeign2.Projetofeign2Application",
+            "projectName": "projetofeign2",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
