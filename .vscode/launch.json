@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Facade.Test",
+            "projectName": "JAVA_eebce06d"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-EstudosApplication<estudos>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
@@ -30,6 +37,28 @@
             "console": "internalConsole",
             "mainClass": "com.example.projetofeign2.Projetofeign2Application",
             "projectName": "projetofeign2",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PadroesdeprojetospringApplication<padroesdeprojetospring>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.padroesdeprojetospring.PadroesdeprojetospringApplication",
+            "projectName": "padroesdeprojetospring",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringboottextApplication<springboottext>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.springboottext.SpringboottextApplication",
+            "projectName": "springboottext",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
